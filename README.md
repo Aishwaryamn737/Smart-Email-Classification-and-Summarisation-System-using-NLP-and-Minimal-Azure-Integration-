@@ -47,6 +47,7 @@ Toggle Notebook Access to ON.
 
 Update the path in the notebook to point to where you saved the Kaggle file in your Google Drive, then run the cells sequentially from top to bottom.
 
-**End-to-end system architecture **
+**End-to-end system architecture**
+
 <img width="658" height="403" alt="image" src="https://github.com/user-attachments/assets/71495b29-bb15-400c-831f-ff744152483b" />
 
