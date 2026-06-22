@@ -5,6 +5,7 @@ Author: Aishwarya Mudravalli Ningaraju
 Degree: Master of Science in Data Science
 
 **Project Abstract**
+
 Email overload presents a persistent challenge to organizational productivity and corporate security. This Master's project introduces an end-to-end, reproducible NLP data intelligence pipeline utilizing the Enron Email Corpus. The entire system is built as a unified pipeline capable of executing four distinct corporate mail and artifact operations:
 
 Folder Classification (Multi-class): Automatically routes emails to operational directories (sent, inbox, deleted). Compares classical machine learning baselines (TF-IDF with Naïve Bayes, Linear SVM, and Random Forest) against a contextual, fine-tuned DistilBERT transformer model.
@@ -16,6 +17,7 @@ Email Summarisation (Seq2Seq): Condenses dense, multi-sentence business correspo
 Azure Storage Blob Integration: Connects the data pipeline directly to cloud infrastructure to stream, serialize, and safely save raw/processed partitions, model prediction outputs, and evaluation metrics.
 
 **Dataset and Setup**
+
 This project utilizes the official Enron Email Dataset hosted on Kaggle.
 
 **Dataset Link**: https://www.kaggle.com/datasets/wcukierski/enron-email-dataset
@@ -23,11 +25,13 @@ This project utilizes the official Enron Email Dataset hosted on Kaggle.
 Storage Configuration: For execution in Google Colab, the downloaded dataset (emails.csv) was placed into Google Drive and mounted locally via runtime environment configurations to process the high-volume mail threads.
 
 **Cloud Infrastructure and Engineering**
+
 Data Persistence: Raw or processed training partitions, model prediction dumps, and mathematical evaluation matrices are directly serialized and streamed to Azure Blob Storage.
 
 Security and Compliance: To align with academic software security standards, all cloud access keys and connection strings are managed dynamically via runtime environment configurations (Colab Secrets) rather than being hardcoded in the file.
 
 **How to Run the Unified Pipeline**
+
 The entire codebase for data preprocessing, baseline model training, transformer fine-tuning, and evaluation is contained within a single notebook file.
 
 Download the smart_email_pipeline.ipynb notebook from this repository.
