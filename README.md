@@ -46,3 +46,7 @@ Value: Your actual Azure Blob Storage connection string
 Toggle Notebook Access to ON.
 
 Update the path in the notebook to point to where you saved the Kaggle file in your Google Drive, then run the cells sequentially from top to bottom.
+
+End-to-end system architecture 
+
+<img width="600" height="351" alt="image" src="https://github.com/user-attachments/assets/07c51741-6929-4b0b-994a-c76152dfc3ec" />
