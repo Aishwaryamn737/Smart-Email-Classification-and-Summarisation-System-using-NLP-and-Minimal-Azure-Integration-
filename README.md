@@ -1,7 +1,7 @@
 Smart Email Classification and Summarisation System using NLP and Minimal Azure Integration
 
-Author: Aishwarya Mudravalli Ningaraju
 
+Author: Aishwarya Mudravalli Ningaraju
 Degree: Master of Science in Data Science
 
 **Project Abstract**
